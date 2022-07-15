@@ -1,0 +1,23 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/c4ffeinated/nsar.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "TypeScript",
+    "iOS",
+    "Android"
+  ],
+  "author": {
+    "name": "c4ffeinated",
+    "email": "contact@c4ffein.dev"
+  },
+  "bugs": {
+    "url": "https://github.com/c4ffeinated/nsar/issues"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/c4ffeinated/nsar"
+}
+
