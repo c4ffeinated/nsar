@@ -28,6 +28,9 @@
       ],
       "@/*": [
         "packages/*"
+      ],
+      "nsar": [
+        "packages/nsar/index.d.ts"
       ]
     }
   },

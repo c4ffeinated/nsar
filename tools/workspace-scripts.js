@@ -61,7 +61,14 @@ module.exports = {
     // packages
     // build output is always in dist/packages
     '@': {
-      'build-all': {
+      // nsar
+			'nsar': {
+				build: {
+					script: 'nx run nsar:build.all',
+					description: 'nsar: Build',
+				},
+			},
+			'build-all': {
         script: 'nx run-many --target=build.all --all',
         description: 'Build all packages',
       },
@@ -71,7 +78,11 @@ module.exports = {
       description: '_____________  Focus (VS Code supported)  _____________',
     },
     focus: {
-      reset: {
+      'nsar': {
+				script: 'nx run nsar:focus',
+				description: 'Focus on nsar',
+			},
+			reset: {
         script: 'nx g @/plugin-tools:focus-packages',
         description: 'Reset Focus',
       },

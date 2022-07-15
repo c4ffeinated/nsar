@@ -6,7 +6,8 @@ import { HomeComponent } from './home.component';
 
 const routes: Routes = [
    { path: '', redirectTo: '/home', pathMatch: 'full' },
-   { path: 'home', component: HomeComponent }
+   { path: 'home', component: HomeComponent },
+	{ path: 'nsar', loadChildren: () => import('./plugin-demos/nsar.module').then(m => m.NsarModule) }
 ];
 
 @NgModule({

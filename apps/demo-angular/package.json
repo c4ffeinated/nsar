@@ -1,7 +1,8 @@
 {
   "main": "./src/main.ts",
   "dependencies": {
-    "@nativescript/core": "file:../../node_modules/@nativescript/core"
+    "@nativescript/core": "file:../../node_modules/@nativescript/core",
+    "nsar": "file:../../dist/packages/nsar"
   },
   "devDependencies": {
     "@nativescript/android": "~8.2.0",

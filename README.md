@@ -1,11 +1,4 @@
-# @/\* plugins
-
-```
-npm run setup
-npm start
-```
-
-- @
+- [nsar](packages/nsar/README.md)
 
 # How to use?
 
