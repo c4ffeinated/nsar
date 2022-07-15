@@ -1,6 +1,41 @@
+# NSAR
+
+*Simple AR for NativeScript*
+
+This is based on [Viro](https://github.com/ViroCommunity/viro).  
+[Forked to be used with NativeScript](https://github.com/c4ffeinated/ns-viro).
+
+## TODO
+This project is still WiP.
+- See https://blog.nativescript.org/create-a-custom-view-plugin-marquee-label/
+### Check java imports reflection
+React Native allows the java codebase to directly import some React Native funtionalities. Should we try to reimplement them so that Viro can be used as-is by our NS plugin?
+
+## Submodules
+- [ns-viro](https://github.com/c4ffeinated/ns-viro) : fork of Viro, make it compatible with NS, we could try to keep it as-is first.
+
+## Build
+Follow local Viro setup in the links, then the rest of the NS plugins documentation
+
+## Viro links
+- [local Viro setup](https://viro-community.readme.io/docs/developing-viro)
+- [awesome-viro](https://github.com/ViroCommunity/awesome-viro)
+- [virocommunity.github.io README](https://github.com/ViroCommunity/virocommunity.github.io/blob/main/README.md)
+- [ViroFBX](https://github.com/ViroCommunity/ViroFBX) : `The FBX -> VRX converter`
+- Viro suggestions
+  - ViroCommunity/ideas_and_sugestions#3 is a suggestion about WebAR and PWA
+
+### Unused Viro example apps (for now?)
+- [ViroCommunity/samples](https://github.com/ViroCommunity/samples)
+- [ViroCommunity/geoar](https://github.com/ViroCommunity/geoar) : `GeoAR Demo - Uses Google Maps Places API to fetch markers and places them around the user in a 3D space`
+- [AR demos](https://github.com/ViroCommunity/ar-demos)
+
+
+## NSAR plugin
+
 - [nsar](packages/nsar/README.md)
 
-# How to use?
+### How to use?
 
 This workspace manages the suite of plugins listed above. 
 
