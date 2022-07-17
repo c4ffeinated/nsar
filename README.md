@@ -10,6 +10,12 @@ This project is still WiP.
 - See https://blog.nativescript.org/create-a-custom-view-plugin-marquee-label/
 ### Check java imports reflection
 React Native allows the java codebase to directly import some React Native funtionalities. Should we try to reimplement them so that Viro can be used as-is by our NS plugin?
+### Other option - Android Fragment
+- https://reactnative.dev/docs/0.66/integration-with-android-fragment : `Ensure your main Application Java class implements ReactApplication`
+- https://github.com/facebook/react-native/blob/main/ReactAndroid/src/main/java/com/facebook/react/ReactApplication.java
+- https://github.com/facebook/react-native/blob/main/ReactAndroid/src/main/java/com/facebook/react/ReactNativeHost.java
+- https://stackoverflow.com/questions/35861380/equivalent-of-android-fragments-in-nativescript
+- https://v6.docs.nativescript.org/core-concepts/android-runtime/advanced-topics/extend-application-activity in nsar/apps/demo/src/app.ts
 
 ## Submodules
 - [ns-viro](https://github.com/c4ffeinated/ns-viro) : fork of Viro, make it compatible with NS, we could try to keep it as-is first.
