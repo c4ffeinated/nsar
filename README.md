@@ -16,6 +16,8 @@ React Native allows the java codebase to directly import some React Native funti
 - https://github.com/facebook/react-native/blob/main/ReactAndroid/src/main/java/com/facebook/react/ReactNativeHost.java
 - https://stackoverflow.com/questions/35861380/equivalent-of-android-fragments-in-nativescript
 - https://docs.nativescript.org/advanced-concepts.html#extending-android-activity in nsar/apps/demo/src/app.ts
+### Publish
+- https://docs.nativescript.org/development-workflow.html#plugins : Publish in the official marketplace
 
 ## Submodules
 - [ns-viro](https://github.com/c4ffeinated/ns-viro) : fork of Viro, make it compatible with NS, we could try to keep it as-is first.
