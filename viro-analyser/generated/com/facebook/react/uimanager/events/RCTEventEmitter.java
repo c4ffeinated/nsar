@@ -21,3 +21,11 @@
 //   - viro_bridge\src\main\java\com\viromedia\bridge\component\node\control\VRTImage.java
 //   - viro_bridge\src\main\java\com\viromedia\bridge\component\node\control\VRTVideoSurface.java
 //   - viro_bridge\src\main\java\com\viromedia\bridge\utility\ComponentEventDelegate.java
+
+/*
+
+    used in :
+
+        component.getReactContext().getJSModule(RCTEventEmitter.class).receiveEvent(
+
+*/

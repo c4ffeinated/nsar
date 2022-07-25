@@ -8,3 +8,11 @@
 //   - viro_bridge\src\main\java\com\viromedia\bridge\module\SceneModule.java
 //   - viro_bridge\src\main\java\com\viromedia\bridge\module\SceneNavigatorModule.java
 //   - viro_bridge\src\main\java\com\viromedia\bridge\module\VRT3DSceneNavigatorModule.java
+
+/*
+
+used in : 
+
+        UIManagerModule uiManager = getReactApplicationContext().getNativeModule(UIManagerModule.class);
+
+*/

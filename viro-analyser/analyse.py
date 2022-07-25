@@ -9,7 +9,8 @@ import re
 import pathlib
 
 
-root_dir = "../packages/nsar/ns-viro/android/"
+#root_dir = "../packages/nsar/ns-viro/platforms/android/"
+root_dir = "..\\packages\\nsar\\ns-viro\\android\\"
 
 
 def print_dict(d):  # More configurable than pprint
@@ -21,6 +22,7 @@ def print_dict(d):  # More configurable than pprint
 
 def lineregex(base_dir, reg):
     rdict = {}
+    print(base_dir)
     for subdir, dirs, files in os.walk(base_dir):
         for file in files:
             if not file.endswith(".java"):
@@ -51,17 +53,22 @@ def get_url(package_name):
 os.chdir(os.path.dirname(__file__))
 facebook_imports = lineregex(root_dir, "import com\\.facebook")
 facebook_imports_curated = {}
+print(facebook_imports)
 for k, v in facebook_imports.items():
     for l in v:
         if l not in facebook_imports_curated:
             facebook_imports_curated[l] = []
         facebook_imports_curated[l].append(k[33:])
 pathlib.Path("generated").mkdir(parents=True, exist_ok=True)
+print(facebook_imports)
+print(facebook_imports_curated)
 for k, v in facebook_imports_curated.items():
+    print("couc")
     path = k[7:-1].split(".")
     for c in "".join(path):
         if ord(c) not in (*range(ord("A"), ord("Z") + 1), *range(ord("a"), ord("z") + 1)):
             raise Exception("Unsecure char: " + c + " ord " + str(ord(c)))
+    print("generated/" + "/".join(path[:-1]))
     pathlib.Path("generated/" + "/".join(path[:-1])).mkdir(parents=True, exist_ok=True)
     java_path = "/".join(path)
     with open("generated/" + java_path + ".java", "w") as f:

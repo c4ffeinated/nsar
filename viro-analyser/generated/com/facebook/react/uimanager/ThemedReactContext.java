@@ -41,3 +41,15 @@
 //   - viro_bridge\src\main\java\com\viromedia\bridge\component\node\control\VRTSphereManager.java
 //   - viro_bridge\src\main\java\com\viromedia\bridge\component\node\control\VRTTextManager.java
 //   - viro_bridge\src\main\java\com\viromedia\bridge\component\node\control\VRTVideoSurfaceManager.java
+
+/*
+
+used in :
+
+    @Override
+    protected VRTText createViewInstance(ThemedReactContext reactContext) {
+        return new VRTText(reactContext);
+    }
+
+
+*/
