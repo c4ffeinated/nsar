@@ -5,3 +5,5 @@
 //   - viro_bridge\src\main\java\com\viromedia\bridge\module\ARTrackingTargetsModule.java
 //   - viro_bridge\src\main\java\com\viromedia\bridge\module\MaterialManager.java
 //   - viro_bridge\src\main\java\com\viromedia\bridge\module\SoundModule.java
+
+// used in : ReadableMapKeySetIterator iter = newMaterials.keySetIterator();

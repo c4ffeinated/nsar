@@ -6,3 +6,13 @@
 //   - viro_bridge\src\main\java\com\viromedia\bridge\module\AnimationManager.java
 //   - viro_bridge\src\main\java\com\viromedia\bridge\module\MaterialManager.java
 //   - viro_bridge\src\main\java\com\viromedia\bridge\module\SoundModule.java
+
+/*
+
+    used in :
+    - ReadableType keyType = soundMap.getType(key);
+    - keyType == ReadableType.String
+    - keyType == ReadableType.Map
+    - height.getType() == ReadableType.String
+
+*/

@@ -17,3 +17,5 @@
 //   - viro_bridge\src\main\java\com\viromedia\bridge\module\VRT3DSceneNavigatorModule.java
 //   - viro_bridge\src\main\java\com\viromedia\bridge\utility\ARUtils.java
 //   - viro_bridge\src\main\java\com\viromedia\bridge\utility\ComponentEventDelegate.java
+
+// used in : WritableMap event = Arguments.createMap(); + event.put*
